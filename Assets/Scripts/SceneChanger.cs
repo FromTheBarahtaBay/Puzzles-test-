@@ -19,8 +19,6 @@ public class SceneChanger : MonoBehaviour
         // сгружаем передаваемые данные в DataHolder
         Texture2D image = transform.GetComponent<Image>().sprite.texture;
 
-        print($"Выбрана картинка {image.name}");
-
         DataHolder.Image = image;
     }
 
@@ -28,8 +26,6 @@ public class SceneChanger : MonoBehaviour
     {
         // сгружаем передаваемые данные в DataHolder
         TextMeshProUGUI _text = GetComponentInChildren<TextMeshProUGUI>();
-
-        print($"Разбивка: {_text.text} на {_text.text} ");
 
         DataHolder.Text = _text.text;        
     }
