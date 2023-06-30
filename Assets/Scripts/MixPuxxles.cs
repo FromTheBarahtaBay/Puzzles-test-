@@ -5,7 +5,7 @@ using System.Collections;
 public class MixPuxxles : MonoBehaviour
 {
     private List<GameObject> _listOfPiecese;
-    private float _speed = 4f;
+    private float _speed = 1f;
     private bool _mixComplite = true;
 
     private void Start()

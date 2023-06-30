@@ -9,9 +9,6 @@ public class SceneChanger : MonoBehaviour
     {
         // загружаем новую сцену
         SceneManager.LoadScene(numOfScene);
-
-        // закрываем старую
-        Application.Quit();
     }
 
     public void SelectImage ()
