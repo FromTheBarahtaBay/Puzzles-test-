@@ -10,10 +10,7 @@ public class RestartAndExit : MonoBehaviour
 
     public void LoadNextScene()
     {
-        // загружаем новую сцену
+        // загружаем сцену 0 с выбором картинки
         SceneManager.LoadScene(0);
-
-        // закрываем старую
-        Application.Quit();
     }
 }
